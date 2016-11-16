@@ -20,3 +20,7 @@ install.packages("wordcloud")
 ```
 
 [Create a Twitter app](https://apps.twitter.com/app/new), and fill in the "app", "consumer_key", and "consumer_secret" in the create_token function. Then, you can run it.
+
+# Results
+![Happy Cloud](happy.png)
+![Sad Cloud](sad.png)
