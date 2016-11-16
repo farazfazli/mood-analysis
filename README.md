@@ -19,4 +19,4 @@ install.packages("rtweet")
 install.packages("wordcloud")
 ```
 
-Create a Twitter app, and fill in "app", "consumer_key", and "consumer_secret". Then, you can run it.
+[Create a Twitter app](https://apps.twitter.com/app/new), and fill in the "app", "consumer_key", and "consumer_secret" in the create_token function. Then, you can run it.
