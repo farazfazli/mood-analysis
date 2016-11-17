@@ -9,8 +9,8 @@ happy <- search_tweets("happy", n = 10000, token = twitter_token, lang = "en")
 sad <- search_tweets("sad", n = 10000, token = twitter_token, lang = "en")
 
 generateCloud<-function(tweets) {
-  tweetsVector = unlist(tweets)
-  tweetFrequency = table(tweetsVector)
+  tweetsVector <- unlist(tweets)
+  tweetFrequency <- table(tweetsVector)
   wordcloud(names(tweetFrequency), min.freq = 10, random.order = FALSE, colors = palette())
 }
 
